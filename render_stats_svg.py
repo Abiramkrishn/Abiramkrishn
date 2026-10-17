@@ -162,7 +162,9 @@ for i, m in enumerate(monthly):
 
 parts.append("</svg>")
 svg = "".join(parts)
-os.makedirs(os.path.dirname(OUT), exist_ok=True)
+out_dir = os.path.dirname(OUT)
+if out_dir:
+    os.makedirs(out_dir, exist_ok=True)
 with open(OUT, "w", encoding="utf-8") as f:
     f.write(svg)
 print(f"Wrote {OUT}: {W} x {H}, {len(svg)//1024} KB")

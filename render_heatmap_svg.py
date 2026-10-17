@@ -198,7 +198,9 @@ def render(data):
 if __name__ == "__main__":
     data = json.load(open(IN_PATH))
     svg = render(data)
-    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
+    out_dir = os.path.dirname(OUT_PATH)
+    if out_dir:
+        os.makedirs(out_dir, exist_ok=True)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         f.write(svg)
     print(f"Wrote {OUT_PATH} ({len(svg)} bytes)")
