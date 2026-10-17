@@ -32,7 +32,7 @@
 <table>
 <tr>
 <td valign="top" width="50%"><img src="./showcase.svg" width="420" alt="Abiram Krishn - Production Systems Showcase" /></td>
-<td valign="top" width="50%"><img src="./stats.svg" width="420" alt="Abiram Krishn - GitHub Live Stats Card" /></td>
+<td valign="top" width="50%"><img src="./telemetry.svg" width="420" alt="Abiram Krishn - GitHub Live Stats Card" /></td>
 </tr>
 </table>
 
@@ -40,47 +40,22 @@
 <br>
 
 <!-- ==========================================
-     3. VISUAL WORK SHOWCASE (SCREENSHOT GALLERY)
+     3. PRODUCTION SYSTEMS CATALOG
      ========================================== -->
-<h3><code>abi@github ~ $ ./projects.sh --visual-gallery</code></h3>
+<h3><code>abi@github ~ $ ./projects.sh --production</code></h3>
 
-<table>
-<tr>
-<td width="50%" align="center" valign="top">
-  <a href="https://portfolio-abiram1.vercel.app/work/vaakku-ai">
-    <img src="./assets/vaakku-preview.png" width="100%" alt="Vaakku AI Preview" style="border-radius: 8px; border: 1px solid #30363d;" /><br>
-    <b>🎙️ Vaakku AI: Speech-to-Speech Platform</b>
-  </a>
-  <p align="left"><small>Gemini Live voice agents in Malayalam/English, modular monolith (api, voice, worker), 20ms audio loop &amp; RLS multi-tenant security.</small></p>
-</td>
-<td width="50%" align="center" valign="top">
-  <a href="https://cakee.in">
-    <img src="./assets/cakee-preview.png" width="100%" alt="Cakee.in Preview" style="border-radius: 8px; border: 1px solid #30363d;" /><br>
-    <b>🎂 Cakee.in: Live E-Commerce &amp; Kitchen PWA</b>
-  </a>
-  <p align="left"><small>Production bakery storefront with geospatial distance fee pricing, server-verified Razorpay payments, and offline-ready operations PWA.</small></p>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center" valign="top">
-  <a href="https://portfolio-abiram1.vercel.app/work/flowbitly">
-    <img src="./assets/flowbitly-preview.png" width="100%" alt="Flowbitly Preview" style="border-radius: 8px; border: 1px solid #30363d;" /><br>
-    <b>🏢 Flowbitly: Workforce Operations SaaS</b>
-  </a>
-  <p align="left"><small>Multi-tenant workforce platform with organisation-scoped RLS policies, real-time presence/chat, worker task boards &amp; attendance.</small></p>
-</td>
-<td width="50%" align="center" valign="top">
-  <a href="https://portfolio-abiram1.vercel.app">
-    <img src="./assets/home-preview.png" width="100%" alt="Developer Portfolio Preview" style="border-radius: 8px; border: 1px solid #30363d;" /><br>
-    <b>⚡ Next.js 15 Interactive Engineering Portfolio</b>
-  </a>
-  <p align="left"><small>Next.js 15 App Router, TypeScript, Tailwind CSS, live systems catalog, architectural decisions, and production verification logs.</small></p>
-</td>
-</tr>
-</table>
+</div>
+
+| System | Role & Focus | Architecture & Engineering Highlights |
+| :--- | :--- | :--- |
+| **[Vaakku AI](https://portfolio-abiram1.vercel.app)** | Architecture & AI Engine | Malayalam/English voice agents on Gemini Live speech-to-speech. Modular monolith (`api`, `voice`, `worker`), 20ms audio loop, RLS isolation, Redis/BullMQ. |
+| **[Cakee.in](https://cakee.in)** | Full-Stack Commerce | Live bakery storefront with OTP auth, geospatial distance-based pricing, server-verified Razorpay payments, and kitchen operations PWA. |
+| **[Flowbitly](https://portfolio-abiram1.vercel.app)** | Co-Developer & Security | Multi-tenant project & workforce management platform. Row-Level Security (RLS) data isolation, real-time presence/chat, worker task boards. |
+| **[RBMS 24-Building](https://portfolio-abiram1.vercel.app)** | Prototype & SRS | Bilingual (English/Arabic) commercial property management system for 24 UAE buildings, lease contracts, rent collection, and expense tracking. |
 
 <br>
-<br>
+
+<div align="center">
 
 <!-- ==========================================
      4. TECH STACK BADGES (THE TERMINAL ENV)
