@@ -8,8 +8,7 @@
 
 <p align="center">
   <a href="https://portfolio-abiram1.vercel.app"><img src="https://img.shields.io/badge/Live_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/abiram-krishnan-14560a2b5"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://www.freelancer.com/u/AbiramKrishn"><img src="https://img.shields.io/badge/Freelancer-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/abiram-krishn-78275a21a/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
 
 <br>
