@@ -31,7 +31,7 @@
 
 <table>
 <tr>
-<td valign="top" width="50%"><img src="./showcase.svg" width="420" alt="Abiram Krishn - Production Systems Showcase" /></td>
+<td valign="top" width="50%"><img src="./how-i-work.svg" width="420" alt="How Abiram Transforms Ideas into Scaled Systems" /></td>
 <td valign="top" width="50%"><img src="./telemetry.svg" width="420" alt="Abiram Krishn - GitHub Live Stats Card" /></td>
 </tr>
 </table>
