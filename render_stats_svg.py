@@ -115,8 +115,7 @@ for i, (label, value, suffix, caption, accent) in enumerate(tiles):
             anim += f'<set attributeName="opacity" to="0" begin="{t_off:.3f}s"/>'
         parts.append(
             f'<text x="{x+24:.1f}" y="{num_y}" opacity="0" font-size="52" font-weight="700" fill="{accent}">'
-            f"{fmt(v, value)}<tspan font-size="
-            f'24" font-weight="400" fill="{MUTED}">{suffix}</tspan>'
+            f'{fmt(v, value)}<tspan font-size="24" font-weight="400" fill="{MUTED}">{suffix}</tspan>'
             f"{anim}</text>"
         )
     parts.append(f'<text x="{x+24:.1f}" y="{y+132}" fill="{MUTED}" font-size="18">{caption}</text>')
