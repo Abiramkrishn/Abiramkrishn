@@ -1,22 +1,22 @@
 {
   "username": "Abiramkrishn",
-  "generated_at": "2026-11-25T17:15:13Z",
+  "generated_at": "2026-11-26T16:55:41Z",
   "range": {
     "start": "2025-11-23",
+    "end": "2026-11-26"
+  },
+  "total_contributions": 451,
+  "active_days": 86,
+  "avg_per_active_day": 5.2,
+  "current_streak": {
+    "length": 40,
+    "start": "2026-10-17",
     "end": "2026-11-25"
   },
-  "total_contributions": 450,
-  "active_days": 85,
-  "avg_per_active_day": 5.3,
-  "current_streak": {
-    "length": 39,
-    "start": "2026-10-17",
-    "end": "2026-11-24"
-  },
   "longest_streak": {
-    "length": 39,
+    "length": 40,
     "start": "2026-10-17",
-    "end": "2026-11-24"
+    "end": "2026-11-25"
   },
   "best_day": {
     "date": "2026-10-31",
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-11",
-      "total": 89
+      "total": 90
     }
   ],
   "days": [
@@ -1914,6 +1914,11 @@
     },
     {
       "date": "2026-11-25",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-11-26",
       "count": 0,
       "level": 0
     }
